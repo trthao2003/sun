@@ -1,0 +1,92 @@
+  body{
+   font-family: Arial, sans-serif;
+   color: #555;
+   background-color: rgba(173, 204, 230, 0.8);
+  }
+  h1{
+   text-align: center;
+   margin-top: 50px;
+   text-transform: uppercase;
+  }
+  .container{
+   margin: auto;
+   width: 80%;
+   max-width: 1200px;
+  }
+  .product{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   border-bottom: 1px solid #ddd;
+  }
+  .product-img{
+   flex: 1;
+   max-width: 150px;
+  }
+  .product-img img{
+   max-width: 100%;
+  }
+  .product-details{
+   flex: 2;
+   margin-left: 20px;
+  }
+  .product-name{
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+  }
+  .product-price{
+   font-size: 18px;
+   color: #333;
+   margin-bottom: 20px;
+  }
+  .product-action{
+   flex: 1;
+   text-align: center;
+  }
+  .btn{
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #555;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 14px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+  }
+  .btn:hover{
+   background-color: #333;
+  }
+  .total{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   border-top: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+  }
+  .subtotal{
+   font-size: 24px;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 0;
+  }
+  .checkout-btn{
+   display: block;
+   margin: 20px auto;
+   padding: 10px 20px;
+   background-color: #158cba;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+  }
+  .checkout-btn:hover{
+   background-color: #0a6d8e;
+  }
+ 

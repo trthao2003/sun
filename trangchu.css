@@ -1,0 +1,252 @@
+
+    .item1 { grid-area: header; }
+    .item2 { grid-area: Navigation; }
+    .item3 { grid-area: main; }
+    .item4 { grid-area: main2;}
+    .item6 { grid-area: footer; }
+    
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header '
+        'Navigation Navigation Navigation '
+        'main main main'
+        'main2 main2 main2'
+        'footer footer footer ';
+      gap: 10px;
+      background-color: whitesmoke;
+      padding: 5px;
+    }
+    
+    .grid-container > div {
+      background-color: rgba(173, 204, 230, 0.8);
+      text-align: center;
+      padding: 10px 0;
+      font-size: 20px;
+    }
+    .item1{
+        width: 100%;
+        height: 100px;
+    }
+    .item2{
+        width: 100%;
+        height: 40px;
+    }
+    ul{
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }   
+    ul li{
+        list-style: none;
+        margin-left: 10px;
+        margin-top:-2.5%;
+        font-size: 15px;
+    }
+    ul li a{
+        text-decoration: none;
+        color:rgb(75, 126, 184);
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    ul li a:hover{
+    color: #5f62635b;
+    }
+    .search{
+     width: 330px;
+     float: left;
+     margin-left: 270px;
+    }
+.logo{
+float: left;
+border-top-left-radius: 5px;
+margin-top: 13px;
+margin-left: 27px;
+}
+.srch{
+font-family: 'Times New Roman';
+width: 200px;
+height: 40px;
+background: transparent;
+border: 1px solid #3e6d42;
+margin-top: 13px;
+color: black;
+border-right: none;
+font-size: 16px;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.btn{
+width: 100px;
+height: 40px;
+background: #3e6d42;
+border: 2px solid #3e6d42;
+margin-top: 12px;
+color: #fff;
+font-size: 15px;
+border-bottom-right-radius: 5px;
+transition: 0.2s ease;
+cursor: pointer;
+}
+.btn:hover{
+color: #000;
+}
+
+.btn:focus{
+outline: none;
+}
+
+.srch:focus{
+outline: none;
+}
+
+#menu{
+width:100%;
+height:60px;
+margin:10px auto;
+}
+
+ul.sub-menu>li{
+list-style:none;
+float:left;
+position:relative;
+}
+
+ul.sub-menu>li>a{
+text-decoration:none;
+padding: 0px 20px 0px 20px;
+line-height:60px;
+display:block;
+
+}
+ul.sub-menu>li>a:hover{
+background-color:rgb(146, 181, 233);
+
+
+}
+ul.sub-menu-con{
+width:260px;
+list-style:none;
+display:none;
+position:absolute;
+
+}
+ul.sub-menu-con a{
+text-decoration:none;
+display:block;
+border-top:1px solid;
+text-indent:12px;
+line-height:60px;
+background-color:rgb(177, 207, 252);
+}
+ul.sub-menu > li:hover ul.sub-menu-con{
+display:block;
+}
+ul.sub-menu-con a:hover{
+color:#000;
+background-color:rgb(100, 124, 160);
+} 
+li.input{
+margin: 10px auto;
+}
+
+.slider-product-content{
+padding:25px;
+
+}
+.slider-product-one-content-items{
+display:flex;
+justify-content:space-evenly;
+}
+.slider-product-one-content-item{
+width:15%;
+background-color:#fff;
+padding:50px 12px 40px ;
+border-radius:5px;
+cursor:pointer;
+}
+.slider-product-one-content-item img{
+width:100%;
+transition: all 0.4s;   
+}
+.slider-product-one-content-item-text{
+padding-top:20px;
+}
+.slider-product-one-content-item-text li{
+margin-bottom:6px;
+list-style:none;
+}
+.slider-product-one-content-item:hover > img {
+transform: translateY(-20px);
+}
+.item-compare{
+border-radius:25px solid #EEEEEE;
+background-color:#DCDCDC;
+}
+.item-detail{
+border-radius:20px solid #BEBEBE;
+background-color:#F5F5F5;
+
+
+}
+
+.item4{
+    width: 100%;
+    height: 800px;
+}
+    
+.item6 {
+width: 100%;
+background:rgb(0,0,0,0.79);
+display: flex;
+justify-content: space-around;
+}
+
+.item6 .box {
+width: 200px;
+color:#fff;
+float:right;
+}
+
+.item6  .box .quick-menu {
+margin-top:20px;
+}
+
+.item6  .box .quick-menu .item{
+margin-bottom:20px;
+
+}
+.item6  .box .quick-menu ,.item a{
+color:#fff;
+text-decoration: none;
+float:right;
+}
+.item6  .box form input {
+width: 290px;
+height: 42px;
+background:transparent;
+color:#fff;
+margin-top:20px;
+}
+
+.item6  .box form button {
+background:#362f2f;
+box-shadow: 5px 5px 4px rgba(0,0,0.25);
+width: 163px;
+height: 38px;
+margin-top:30px;
+color:#fff;
+}
+.item6 .comment
+{
+float:inline-end;
+float:right;
+}
+
+.check{
+    text-decoration:none;
+}
